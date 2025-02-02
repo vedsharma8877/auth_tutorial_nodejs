@@ -2,12 +2,18 @@ const express = require('express');
 const morgan = require('morgan');
 const createError = require('http-errors');
 require('dotenv').config();
+require('./helpers/init_mongodb');
+
+const authRoutes = require('./routes/auth.routes');
 
 const app = express();
+app.use(morgan('dev'));
 
 app.get('/', async (req, res, next) => {
     res.send('Hello World!');
 });
+
+app.use('/auth', authRoutes);
 
 app.use(async (req, res, next) => {
     next(createError.NotFound());
