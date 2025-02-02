@@ -1,4 +1,5 @@
 GET http://localhost:3000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mzg1Mjg3MTEsImV4cCI6MTczODUyODcyNiwiYXVkIjoiNjc5ZmQxZDVjZTM2OTU5NmZjZmE3ZDA5IiwiaXNzIjoidmVkc2hhcm1hLm5ldGxpZnkuYXBwIn0.EYuaP6Il7bbmXYvYQmbiJVUTyF-M1slhG6tpF1D74VM
 
 ###
 GET http://localhost:3000/abc_xyz
