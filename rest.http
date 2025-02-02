@@ -1,5 +1,5 @@
 GET http://localhost:3000
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mzg1Mjg3MTEsImV4cCI6MTczODUyODcyNiwiYXVkIjoiNjc5ZmQxZDVjZTM2OTU5NmZjZmE3ZDA5IiwiaXNzIjoidmVkc2hhcm1hLm5ldGxpZnkuYXBwIn0.EYuaP6Il7bbmXYvYQmbiJVUTyF-M1slhG6tpF1D74VM
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mzg1MjkxNDQsImV4cCI6MTczODUyOTE1OSwiYXVkIjoiNjc5ZmQxZDVjZTM2OTU5NmZjZmE3ZDA5IiwiaXNzIjoidmVkc2hhcm1hLm5ldGxpZnkuYXBwIn0.uUflwTrckemZMTO4dpLzFVNQiWwy7MYZadhR_-xOCsc
 
 ###
 GET http://localhost:3000/abc_xyz
@@ -18,7 +18,7 @@ POST http://localhost:3000/auth/register
 Content-Type: application/json
 
 {
-    "email": "yourstr123@gmail.com",
+    "email": "yourstr23@gmail.com",
     "password": "123456"
 }
 
